@@ -21,3 +21,15 @@ function sayHello(){
     console.log('hello world!')
     }
 ```
+```javascript
+//回答你-是 or 不是
+function random(){
+    var a;
+    if(Math.random() > 0.5){
+        a = "是"
+    } else{
+        a = "不是"
+    }
+    console.log(`答案是${a}`)
+}
+```
